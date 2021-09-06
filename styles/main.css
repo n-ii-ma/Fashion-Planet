@@ -291,6 +291,7 @@ nav ul li a {
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
     font-family: 'Lora', serif;
+    font-weight: 600;
     font-size: 1.05em;
     line-height: 1.2em;
 }
@@ -313,6 +314,38 @@ nav ul li a {
     
     .container figcaption {
         width: 250px;
+        font-size: 1.07em;
+    }
+}
+
+/* Middle Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .middle-banner {
+        max-width: 700%;
+        margin: 0 auto;
+    }
+    
+    .middle-banner h2 {
+        font-size: 2em;
+        padding: 0 100px;
+    }
+    
+    .middle-banner figure {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .container {
+        margin: 0 15px;
+    }
+    
+    .container img {
+        width: 260px;
+    }
+    
+    .container figcaption {
+        width: 260px;
+        font-size: 1.07em;
     }
 }
 
