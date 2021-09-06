@@ -349,6 +349,34 @@ nav ul li a {
     }
 }
 
+/* Middle Banner for Tablet Landscape Screens */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+    .middle-banner {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .middle-banner h2 {
+        font-size: 2.5em;
+        line-height: normal;
+        padding: 0;
+    }
+    
+    .middle-banner figure {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .container img {
+        width: 275px;
+    }
+    
+    .container figcaption {
+        width: 275px;
+        font-size: 1.15em;
+    }
+}
+
 /* Top Banner for Desktop Screens */
 /* @media only screen and (min-width: 1200px) {
     .middle-banner {
