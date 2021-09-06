@@ -70,3 +70,23 @@ nav ul li a {
         padding: 0;
     }
 }
+
+/* Header for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    header {
+        height: 6.25em;
+    }
+
+    header h1 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        padding: 10px 0;
+    }
+
+    nav ul li a {
+        margin: 0 40px;
+        font-size: 1.25em;
+    }
+}
