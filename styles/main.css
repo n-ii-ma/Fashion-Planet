@@ -145,7 +145,8 @@ nav ul li a {
 .top-banner h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 10px 15px;
+    line-height: 1.2em;
 }
 
 .top-banner p {
@@ -163,7 +164,8 @@ nav ul li a {
 
     .top-banner h2 {
         font-size: 1.75em;
-        padding: 15px 15px 10px 15px;
+        padding: 15px 15px 5px 15px;
+        line-height: normal;
     }
     
     .top-banner p {
@@ -173,3 +175,21 @@ nav ul li a {
     }
 }
 
+/* Top Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .top-banner {
+        height: 50em;
+    }
+    
+    .top-banner h2 {
+        font-size: 2.25em;
+        padding: 20px 20px 5px 20px;
+        line-height: 1.1em;
+    }
+    
+    .top-banner p {
+        font-size: 1.5em;
+        padding: 0 70px 20px 70px;
+        line-height: normal;
+    }
+}
