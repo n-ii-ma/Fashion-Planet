@@ -4,6 +4,7 @@ font-family: 'Quicksand', sans-serif; */
 
 * {
     /* border: 1px solid red; */
+    border-radius: 1px;
 }
 
 html, body {
@@ -250,3 +251,39 @@ nav ul li a {
         line-height: normal;
     }
 }
+
+/* Middle Banner */
+.middle-banner {
+    width: 100%;
+}
+
+.middle-banner h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-top: 0.75em;
+    padding: 0 15px;
+}
+
+.middle-banner figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle-banner figure img {
+    width: 70%;
+    height: 25em;
+    margin-top: 15px;
+}
+
+.middle-banner figure figcaption {
+    width: 70%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    font-family: 'Lora', serif;
+    font-size: 1.05em;
+    line-height: 1.2em;
+}
+
