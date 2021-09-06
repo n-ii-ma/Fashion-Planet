@@ -212,3 +212,41 @@ nav ul li a {
         line-height: normal;
     }
 }
+
+/* Top Banner for Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .top-banner {
+        height: 60em;
+    }
+    
+    .top-banner h2 {
+        font-size: 3em;
+        padding: 30px 0;
+        line-height: normal;
+    }
+    
+    .top-banner p {
+        font-size: 1.75em;
+        padding: 0;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .top-banner {
+        height: 60em;
+        background-position-y: -175px;
+    }
+    
+    .top-banner h2 {
+        font-size: 3em;
+        padding: 15px 0 10px 0;
+        line-height: normal;
+    }
+    
+    .top-banner p {
+        font-size: 1.75em;
+        padding: 0;
+        line-height: normal;
+    }
+}
