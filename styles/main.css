@@ -55,11 +55,8 @@ nav ul li a {
 @media only screen and (min-width: 320px) and (orientation: landscape) {
     header {
         height: 3.5em;
-        display: flex;
         flex-direction: row;
         align-items: center;
-        border-bottom: 1px solid gray;
-        background-color: ivory;
     }
 
     header h1 {
@@ -78,15 +75,59 @@ nav ul li a {
     }
 
     header h1 {
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 300;
-        text-transform: uppercase;
         font-size: 2.5em;
-        padding: 10px 0;
     }
 
     nav ul li a {
         margin: 0 40px;
+        font-size: 1.25em;
+    }
+}
+
+/* Header for Tablet Landscape Screens */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+    header {
+        height: 4em;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: 2.25em;
+        padding: 0 20px;
+    }
+
+    nav {
+        margin-right: 30px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        margin: 0 25px;
+        font-size: 1.2em;
+    }
+}
+
+/* Header for Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    header {
+        height: 4em;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: 2.75em;
+        padding: 0 20px;
+    }
+
+    nav {
+        margin-right: 30px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        margin: 0 30px;
         font-size: 1.25em;
     }
 }
