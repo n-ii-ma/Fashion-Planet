@@ -171,15 +171,13 @@ nav ul li a {
 .top-banner h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
-    padding: 15px 15px 10px 15px;
-    line-height: 1.2em;
+    padding: 10px 15px 10px 15px;
 }
 
 .top-banner p {
     font-family: 'Lora', serif;
     font-size: 1.05em;
-    padding: 0 30px;
-    line-height: 1.2em;
+    padding: 0 10px;
 }
 
 /* Top Banner for Landscape Mobile Screens */
@@ -190,14 +188,12 @@ nav ul li a {
 
     .top-banner h2 {
         font-size: 1.75em;
-        padding: 15px 15px 5px 15px;
-        line-height: normal;
+        padding: 15px 15px 10px 15px;
     }
     
     .top-banner p {
         font-size: 1.2em;
         padding: 0 70px 20px 70px;
-        line-height: normal;
     }
 }
 
@@ -209,14 +205,13 @@ nav ul li a {
     
     .top-banner h2 {
         font-size: 2.25em;
-        padding: 20px 20px 5px 20px;
+        padding: 20px 20px 10px 20px;
         line-height: 1.1em;
     }
     
     .top-banner p {
         font-size: 1.5em;
         padding: 0 70px 20px 70px;
-        line-height: normal;
     }
 }
 
@@ -228,14 +223,12 @@ nav ul li a {
     
     .top-banner h2 {
         font-size: 2.75em;
-        padding: 20px 20px 25px 20px;
-        line-height: normal;
+        padding: 35px 20px 25px 20px;
     }
     
     .top-banner p {
         font-size: 1.6em;
         padding: 0;
-        line-height: normal;
     }
 }
 
@@ -248,13 +241,11 @@ nav ul li a {
     .top-banner h2 {
         font-size: 3em;
         padding: 30px 0;
-        line-height: normal;
     }
     
     .top-banner p {
         font-size: 1.75em;
         padding: 0;
-        line-height: normal;
     }
 }
 
