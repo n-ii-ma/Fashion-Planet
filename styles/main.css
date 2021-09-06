@@ -50,9 +50,16 @@ nav ul li a {
     margin: 0 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.7em;
     color: black;
     text-decoration: none;
+}
+
+/* Header for Larger Portrait Mobile Screens */
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+    nav ul li a {
+        font-size: 14px;
+    }
 }
 
 /* Header for Landscape Mobile Screens */
@@ -64,11 +71,23 @@ nav ul li a {
     }
 
     header h1 {
+        font-size: 1.7em;
         padding: 0 20px 0 10px;
     }
 
     nav {
         padding: 0;
+    }
+}
+
+/* Header for Larger Landscape Mobile Screens */
+@media only screen and (min-width: 667px) and (orientation: landscape) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li a {
+        font-size: 14px;
     }
 }
 
@@ -142,6 +161,9 @@ nav ul li a {
     height: 37em;
     background-image: url("../images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
 }
