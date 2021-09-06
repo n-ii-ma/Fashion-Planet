@@ -4,6 +4,9 @@ font-family: 'Quicksand', sans-serif; */
 
 * {
     /* border: 1px solid red; */
+/*     margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
     border-radius: 1px;
 }
 
@@ -170,7 +173,7 @@ nav ul li a {
     }
     
     .top-banner p {
-        font-size: 1.20em;
+        font-size: 1.2em;
         padding: 0 70px 20px 70px;
         line-height: normal;
     }
@@ -267,17 +270,22 @@ nav ul li a {
 
 .middle-banner figure {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.middle-banner figure img {
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
     width: 70%;
     height: 25em;
     margin-top: 15px;
 }
 
-.middle-banner figure figcaption {
+.container figcaption {
     width: 70%;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -287,3 +295,56 @@ nav ul li a {
     line-height: 1.2em;
 }
 
+/* Middle Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .middle-banner {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .middle-banner figure {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .container img {
+        width: 250px;
+    }
+    
+    .container figcaption {
+        width: 250px;
+    }
+}
+
+/* Top Banner for Desktop Screens */
+/* @media only screen and (min-width: 1200px) {
+    .middle-banner {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .middle-banner figure {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container {
+        margin: 0 15px;
+    }
+    
+    .container img {
+        width: 275px;
+        height: 25em;
+        margin-top: 15px;
+    }
+    
+    .container figcaption {
+        width: 275px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid gray;
+        font-family: 'Lora', serif;
+        font-size: 1.05em;
+        line-height: 1.2em;
+    }
+} */
