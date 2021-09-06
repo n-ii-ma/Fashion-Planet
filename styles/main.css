@@ -271,6 +271,7 @@ nav ul li a {
 .middle-banner figure {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container {
@@ -280,13 +281,13 @@ nav ul li a {
 }
 
 .container img {
-    width: 70%;
+    max-width: 70%;
     height: 25em;
     margin-top: 15px;
 }
 
 .container figcaption {
-    width: 70%;
+    max-width: 70%;
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
@@ -309,11 +310,11 @@ nav ul li a {
     }
     
     .container img {
-        width: 250px;
+        max-width: 250px;
     }
     
     .container figcaption {
-        width: 250px;
+        max-width: 250px;
         font-size: 1.07em;
     }
 }
@@ -340,11 +341,11 @@ nav ul li a {
     }
     
     .container img {
-        width: 260px;
+        max-width: 260px;
     }
     
     .container figcaption {
-        width: 260px;
+        max-width: 260px;
         font-size: 1.07em;
     }
 }
@@ -352,7 +353,7 @@ nav ul li a {
 /* Middle Banner for Tablet Landscape Screens */
 @media only screen and (min-width: 768px) and (orientation: landscape) {
     .middle-banner {
-        max-width: 900px;
+        max-width: 1000px;
         margin: 0 auto;
     }
     
@@ -366,22 +367,32 @@ nav ul li a {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .container {
+        margin: 0 15px;
+    }
     
     .container img {
-        width: 275px;
+        max-width: 275px;
     }
     
     .container figcaption {
-        width: 275px;
+        max-width: 275px;
         font-size: 1.15em;
     }
 }
 
 /* Top Banner for Desktop Screens */
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .middle-banner {
         max-width: 1200px;
         margin: 0 auto;
+    }
+
+    .middle-banner h2 {
+        font-size: 2.75em;
+        line-height: normal;
+        padding: 0;
     }
 
     .middle-banner figure {
@@ -394,18 +405,11 @@ nav ul li a {
     }
     
     .container img {
-        width: 275px;
-        height: 25em;
-        margin-top: 15px;
+        max-width: 275px;
     }
     
     .container figcaption {
-        width: 275px;
-        margin-top: 10px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid gray;
-        font-family: 'Lora', serif;
-        font-size: 1.05em;
-        line-height: 1.2em;
+        max-width: 275px;
+        font-size: 1.15em;
     }
-} */
+}
