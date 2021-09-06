@@ -131,3 +131,26 @@ nav ul li a {
         font-size: 1.25em;
     }
 }
+
+/* Top Banner */
+.top-banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -320px;
+}
+
+.top-banner h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    padding: 15px 15px 15px 15px;
+}
+
+.top-banner p {
+    font-family: 'Lora', serif;
+    font-size: 1.05em;
+    padding: 0 30px;
+    line-height: 1.2em;
+}
