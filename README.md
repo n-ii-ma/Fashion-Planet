@@ -1,3 +1,3 @@
-# FuTuRe
+# Fashion Planet
 
 A Codecademy Project
