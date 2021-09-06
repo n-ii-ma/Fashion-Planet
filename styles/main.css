@@ -17,7 +17,7 @@ header {
     height: 5.5em;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ffddf4;
     background-color: ivory;
 /*     position: fixed;
     top: 0; */
@@ -135,11 +135,11 @@ nav ul li a {
 /* Top Banner */
 .top-banner {
     width: 100%;
-    height: 600px;
+    height: 37em;
     background-image: url("../images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -320px;
+    background-position-x: center;
 }
 
 .top-banner h2 {
@@ -154,3 +154,22 @@ nav ul li a {
     padding: 0 30px;
     line-height: 1.2em;
 }
+
+/* Top Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .top-banner {
+        height: 30em;
+    }
+
+    .top-banner h2 {
+        font-size: 1.75em;
+        padding: 15px 15px 10px 15px;
+    }
+    
+    .top-banner p {
+        font-size: 1.20em;
+        padding: 0 70px 20px 70px;
+        line-height: normal;
+    }
+}
+
