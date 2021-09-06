@@ -395,7 +395,7 @@ nav ul li a {
     }
 }
 
-/* Top Banner for Desktop Screens */
+/* Middle Banner for Desktop Screens */
 @media only screen and (min-width: 1200px) {
     .middle-banner {
         max-width: 1200px;
