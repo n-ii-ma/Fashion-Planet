@@ -178,7 +178,7 @@ nav ul li a {
 .top-banner h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
-    padding: 10px 15px 15px 15px;
+    padding: 15px 15px;
 }
 
 .top-banner p {
@@ -239,11 +239,11 @@ nav ul li a {
     
     .top-banner h2 {
         font-size: 2.75em;
-        padding: 35px 20px 25px 20px;
+        padding: 30px 20px 20px 20px;
     }
     
     .top-banner p {
-        font-size: 1.6em;
+        font-size: 1.5em;
         padding: 0;
     }
 }
