@@ -599,3 +599,37 @@ nav ul li a {
         font-size: 1.10em;
     }
 }
+
+/* Contact Banner */
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contact article {
+    width: 70%;
+    height: 12em;
+    background-color: ivory;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.05em;
+    margin: 15px 0;
+    line-height: 1.2em;
+}
