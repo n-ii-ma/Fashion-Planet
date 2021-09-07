@@ -297,7 +297,8 @@ nav ul li a {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
     line-height: 1.2em;
-    margin-top: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     padding: 0 15px;
 }
 
@@ -322,11 +323,12 @@ nav ul li a {
 .container figcaption {
     max-width: 70%;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
     font-family: 'Lora', serif;
     font-weight: 600;
-    font-size: 1.05em;
+    font-size: 1em;
     line-height: 1.2em;
 }
 
@@ -348,7 +350,6 @@ nav ul li a {
     
     .container figcaption {
         max-width: 250px;
-        font-size: 1.05em;
     }
 }
 
@@ -379,7 +380,7 @@ nav ul li a {
     
     .container figcaption {
         max-width: 260px;
-        font-size: 1.07em;
+        font-size: 1.05em;
     }
 }
 
@@ -411,7 +412,7 @@ nav ul li a {
     
     .container figcaption {
         max-width: 275px;
-        font-size: 1.15em;
+        font-size: 1.10em;
     }
 }
 
@@ -443,7 +444,7 @@ nav ul li a {
     
     .container figcaption {
         max-width: 275px;
-        font-size: 1.15em;
+        font-size: 1.10em;
     }
 }
 
@@ -484,4 +485,25 @@ nav ul li a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.05em;
+}
+
+/* Bottom Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .bottom-banner {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .bottom-banner figure {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .team img {
+        max-width: 250px;
+    }
+    
+    .team figcaption {
+        width: 250px;
+    }
 }
