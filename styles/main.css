@@ -569,3 +569,33 @@ nav ul li a {
         font-size: 1.10em;
     }
 }
+
+/* Bottom Banner for Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .bottom-banner {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .bottom-banner h2 {
+        font-size: 2.75em;
+    }
+
+    .bottom-banner figure {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .team {
+        margin: 0 15px;
+    }
+    
+    .team img {
+        max-width: 275px;
+    }
+    
+    .team figcaption {
+        width: 275px;
+        font-size: 1.10em;
+    }
+}
