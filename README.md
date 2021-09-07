@@ -2,4 +2,4 @@
 
 A Codecademy Project
 
-Address:
+Address: https://n-ii-ma.github.io/Fashion-Planet/
