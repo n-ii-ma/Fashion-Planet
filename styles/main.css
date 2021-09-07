@@ -3,10 +3,6 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
 * {
-    /* border: 1px solid red; */
-/*     margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
     border-radius: 1px;
 }
 
@@ -716,10 +712,44 @@ nav ul li a {
     }
     
     .contact .box {
-        width: 45%;
+        width: 35%;
     }
 
     .box p {
         font-size: 1.10em;
+    }
+}
+
+/* Bottom Banner for Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .contact {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+
+    .contact h2 {
+        font-size: 2.75em;
+    }
+
+    .contact article {
+        width: 100%;
+        height: 45em;
+        background-image: url("../images/vadim-sherbakov-tCICLJ5ktBE-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact .box {
+        width: 33%;
+        height: 33%;
+    }
+    
+    .box p {
+        font-size: 1.5em;
     }
 }
