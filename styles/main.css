@@ -448,3 +448,40 @@ nav ul li a {
 }
 
 /* Bottom Banner */
+.bottom-banner {
+    width: 100%;
+}
+
+.bottom-banner h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.bottom-banner figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.team figcaption {
+    width: 70%;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.05em;
+}
