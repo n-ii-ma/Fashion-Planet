@@ -164,14 +164,14 @@ nav ul li a {
 
 /* Top Banner */
 .top-banner {
-    width: 100%;
+    max-width: 100%;
     height: 37em;
     background-image: url("../images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position-x: center;
-    background-position-y: 85px;
+    /* background-position-y: 85px; */
     margin-top: 5.5em;
 }
 
