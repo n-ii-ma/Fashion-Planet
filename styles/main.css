@@ -356,7 +356,7 @@ nav ul li a {
 /* Middle Banner for Tablet Screens */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
     .middle-banner {
-        max-width: 700%;
+        max-width: 700px;
         margin: 0 auto;
     }
     
@@ -457,6 +457,7 @@ nav ul li a {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
     margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .bottom-banner figure {
@@ -480,6 +481,7 @@ nav ul li a {
 .team figcaption {
     width: 70%;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -505,5 +507,35 @@ nav ul li a {
     
     .team figcaption {
         width: 250px;
+    }
+}
+
+/* Bottom Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .bottom-banner {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    .bottom-banner h2 {
+        font-size: 2em;
+    }
+    
+    .bottom-banner figure {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .team {
+        margin: 0 15px;
+    }
+    
+    .team img {
+        max-width: 260px;
+    }
+    
+    .team figcaption {
+        width: 260px;
+        font-size: 1.05em;
     }
 }
