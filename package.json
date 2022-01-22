@@ -4,7 +4,7 @@
   "description": "A Planet Tailored for You",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/server/index"
+    "start": "node index"
   },
   "author": "Nima",
   "license": "ISC"

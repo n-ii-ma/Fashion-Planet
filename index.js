@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   // File Path
   let filePath = path.join(
     __dirname,
-    "../../public",
+    "public",
     req.url === "/" ? "index.html" : req.url
   );
 
@@ -40,13 +40,10 @@ const server = http.createServer((req, res) => {
     if (err) {
       if (err.code == "ENOENT") {
         // Page Not Found
-        fs.readFile(
-          path.join(__dirname, "../../public", "404.html"),
-          (err, data) => {
-            res.writeHead(200, { "Content-Type": contentType });
-            res.end(data, "utf8");
-          }
-        );
+        fs.readFile(path.join(__dirname, "public", "404.html"), (err, data) => {
+          res.writeHead(200, { "Content-Type": contentType });
+          res.end(data, "utf8");
+        });
       } else {
         // Other Errors
         res.writeHead(500);
