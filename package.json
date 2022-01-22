@@ -1,0 +1,11 @@
+{
+  "name": "fashion-planet",
+  "version": "1.0.0",
+  "description": "A Planet Tailored for You",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server/index"
+  },
+  "author": "Nima",
+  "license": "ISC"
+}
